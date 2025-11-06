@@ -39,9 +39,9 @@ jobs:
       - name: Debug - Check config files
         run: |
           echo "=== Checking Next.js config files ==="
-          ls -la next.config* || echo "No next.config files with wildcard"
-          echo "=== Content of next.config.mjs ==="
-          cat next.config.mjs
+          ls -la next.config* || echo "No next.config files found"
+          echo "=== Content of next.config.js ==="
+          cat next.config.js
           echo "=== Git commit info ==="
           git log -1 --oneline
 
