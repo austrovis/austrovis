@@ -1,0 +1,13 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" fill="white"/>
+  <g transform="translate(15, 40)">
+    <!-- A -->
+    <path d="M 25 0 L 60 0 L 85 90 L 65 90 L 60 72 L 25 72 L 20 90 L 0 90 Z M 33 54 L 52 54 L 42.5 22 Z" fill="black"/>
+    <!-- V -->
+    <path d="M 92 0 L 127 0 L 152 72 L 132 90 L 115 90 L 95 54 L 92 0 Z" fill="black"/>
+    <!-- Dot -->
+    <circle cx="35" cy="108" r="11" fill="black"/>
+    <!-- Star -->
+    <path d="M 42.5 20 L 43.5 24 L 47.5 24 L 44 26.5 L 45 30.5 L 42.5 28 L 40 30.5 L 41 26.5 L 37.5 24 L 41.5 24 Z" fill="white"/>
+  </g>
+</svg>
