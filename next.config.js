@@ -7,4 +7,4 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/austrovis' : '',
 };
 
-export default nextConfig;
+module.exports = nextConfig;
