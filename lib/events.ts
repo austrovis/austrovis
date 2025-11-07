@@ -17,11 +17,11 @@ export const events: Event[] = [
   {
     id: '2',
     title: '2nd Edition AustroVis Workshop',
-    date: new Date('2024-09-30'),
+    date: new Date('2024-02-20'),
     location: 'Vienna, Austria',
-    university: 'VRVis',
+    university: 'TU Wien',
     description: 'The second edition of the AustroVis Workshop.',
-    speakers: ['Johanna Schmidt'],
+    speakers: ['Manuela Waldner'],
     materials: {
       slides: '',
       recording: '',
@@ -30,11 +30,11 @@ export const events: Event[] = [
   {
     id: '3',
     title: '3rd Edition AustroVis Workshop',
-    date: new Date('2025-02-25'),
-    location: 'St. Pölten, Austria',
-    university: 'University of Applied Sciences, St. Pölten',
+    date: new Date('2024-09-30'),
+    location: 'Vienna, Austria',
+    university: 'VRVis',
     description: 'The third edition of the AustroVis Workshop.',
-    speakers: ['Wolfgang Aigner'],
+    speakers: ['Johanna Schmidt'],
     materials: {
       slides: '',
       recording: '',
@@ -43,11 +43,11 @@ export const events: Event[] = [
   {
     id: '4',
     title: '4th Edition AustroVis Workshop',
-    date: new Date('2025-09-25'),
-    location: 'Graz, Austria',
-    university: 'TU Graz',
+    date: new Date('2025-02-25'),
+    location: 'St. Pölten, Austria',
+    university: 'University of Applied Sciences, St. Pölten',
     description: 'The fourth edition of the AustroVis Workshop.',
-    speakers: ['Alexander Lex'],
+    speakers: ['Wolfgang Aigner'],
     materials: {
       slides: '',
       recording: '',
@@ -56,9 +56,22 @@ export const events: Event[] = [
   {
     id: '5',
     title: '5th Edition AustroVis Workshop',
-    date: new Date('2026-06-01'),
-    location: 'Vienna, Austria',
-    university: 'TU Wien',
+    date: new Date('2025-09-25'),
+    location: 'Graz, Austria',
+    university: 'TU Graz',
+    description: 'The fifth edition of the AustroVis Workshop.',
+    speakers: ['Alexander Lex'],
+    materials: {
+      slides: '',
+      recording: '',
+    },
+  },
+  {
+    id: '6',
+    title: '5th Edition AustroVis Workshop',
+    date: new Date('2026-02-01'),
+    location: 'TBD',
+    university: 'TBD',
     description: 'The fifth edition of the AustroVis Workshop.',
     speakers: ['TBA'],
     materials: {
