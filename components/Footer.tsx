@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 pt-6 border-t border-black/10 text-center text-sm text-black/60 space-y-2">
           <p>
-            © {new Date().getFullYear()} AustroVis · Code by{' '}
+            Code by{' '}
             <a 
               href="https://github.com/velitchko" 
               target="_blank" 
